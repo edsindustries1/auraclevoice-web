@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Auracle Voice (AURA)</title>
+<meta name="description" content="Get help with AURA. Contact a human, connect a provider, and fix the common problems.">
+<link rel="canonical" href="https://auraclevoice.com/support/">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="shell">
+    <a class="wordmark" href="/">AURA</a>
+    <span class="wordmark-sub">AURACLE VOICE ON THE APP STORE</span>
+    <nav>
+      <a href="/pricing/">Pricing</a>
+      <a href="/support/">Support</a>
+      <a href="/limitations/">Limits</a>
+      <a href="/legal/">Legal</a>
+    </nav>
+  </div>
+</header>
+
+<div class="shell">
+<div class="doc-shell">
+
+  <aside class="toc">
+    <span class="eyebrow">Contents</span>
+    <ol>
+      <li><a href="#start">Getting started</a></li>
+      <li><a href="#cost">What it costs</a></li>
+      <li><a href="#provider">Connecting a provider</a></li>
+      <li><a href="#problems">Common problems</a></li>
+      <li><a href="#access">Accessibility</a></li>
+      <li><a href="#report">Reporting AI output</a></li>
+    </ol>
+  </aside>
+
+  <article class="doc">
+
+    <span class="eyebrow">Support</span>
+    <h1>Get help.</h1>
+    <p class="lede">A real person reads this inbox.</p>
+
+    <div class="note">
+      <strong>Email <a href="mailto:Contact@auraclevoice.com">Contact@auraclevoice.com</a></strong><br>
+      Use a subject prefix so it reaches the right place: <code>[Support]</code>,
+      <code>[Privacy]</code>, <code>[Security]</code>, <code>[Legal]</code>, or
+      <code>[AI Report]</code> for problematic AI output. We aim to acknowledge within
+      two business days.
+    </div>
+
+    <h2 id="start">Getting started</h2>
+    <p>AURA asks for Microphone and Speech Recognition access the first time you use
+    it. Both are required &mdash; without them there is nothing for AURA to hear or
+    understand. Everything else is optional and asked for only when a question needs
+    it, never at launch:</p>
+    <ul>
+      <li><strong>Location</strong> &mdash; for questions like where you are or the weather nearby.</li>
+      <li><strong>Calendar</strong> &mdash; to tell you what&rsquo;s coming up. AURA never changes or deletes events.</li>
+      <li><strong>Reminders</strong> &mdash; to add to your list by voice and tell you what&rsquo;s outstanding.</li>
+      <li><strong>Notifications</strong> &mdash; for alerts you ask AURA to set.</li>
+    </ul>
+    <p>Any of these can be revoked at any time in iOS Settings &rarr; Privacy &amp;
+    Security, and AURA keeps working without them.</p>
+
+    <h2 id="cost">What it costs</h2>
+    <p>AURA is free to download, and answering on your iPhone is free forever.</p>
+    <p><strong>AURA Plus</strong> is $5 a month, with the first month free, and unlocks
+    one thing: connecting your own Anthropic or Google key, which is also what makes
+    live web results possible. It is an auto-renewing subscription billed through the
+    App Store, and you can cancel in one tap in iOS Settings.</p>
+    <div class="note">
+      <strong>The $5 does not buy AI usage.</strong> It goes to us for the app. Your
+      provider bills you separately, at their own rates, for whatever you use. We take
+      no cut of that, set no prices, and have no visibility into your account.
+      <strong>Set a spend limit on your provider account before you start</strong>
+      &mdash; it is the only reliable protection against a surprise bill, and we cannot
+      refund a provider&rsquo;s charges. Full detail on
+      <a href="/pricing/">Pricing</a>.
+    </div>
+
+    <h2 id="provider">Connecting a provider</h2>
+    <p>Optional, and requires AURA Plus. In AURA:
+    <strong>Settings &rarr; Connect a Provider</strong>, choose Anthropic or Google, and
+    paste your key. Keys are held in the iOS Keychain on your device, are never shown
+    again after you enter them, and are sent only to the provider they authenticate.
+    Remove one at any time from the same screen.</p>
+    <p>AURA supports Anthropic&rsquo;s Claude and Google&rsquo;s Gemini. Support for
+    other providers, including OpenAI, is not in this version.</p>
+
+    <h2 id="problems">Common problems</h2>
+
+    <h3>AURA doesn&rsquo;t hear me</h3>
+    <p>Check Microphone and Speech Recognition are allowed in iOS Settings &rarr;
+    Privacy &amp; Security. If you are on AirPods, confirm they are the active input.
+    A silent switch or Focus mode will not block the microphone, but a phone call or
+    another app holding the mic will.</p>
+
+    <h3>Hands-free stopped listening</h3>
+    <p>iOS can suspend a background app when the system needs the resources. If AURA
+    is unsure whether it is still listening, it says so rather than pretending &mdash;
+    reopen the app to restart the session. Hands-free also has to be started from the
+    foreground, so turn it on before you put the phone away.</p>
+
+    <h3>It says it can&rsquo;t answer that</h3>
+    <p>Questions that need current information &mdash; today&rsquo;s news, live
+    scores, prices &mdash; require a connected provider. Without one, AURA tells you
+    it cannot find out rather than guessing from what it was trained on. That is
+    deliberate.</p>
+
+    <h3>The wake phrase isn&rsquo;t triggering</h3>
+    <p>Speech recognition can mishear short names, so give the phrase a moment of
+    quiet before and after it. You can change the phrase or record your own in
+    <strong>Settings &rarr; Hands-free</strong>.</p>
+
+    <h3>Answers are slower than expected</h3>
+    <p>On-device answers depend on your iPhone; answers from a connected provider
+    depend on your network and that provider. Web results take longer than a direct
+    answer because AURA waits for the sources.</p>
+
+    <h2 id="access">Accessibility</h2>
+    <p>AURA is a voice-first app, which makes it usable without looking at the screen
+    at all. It supports VoiceOver, respects your Dynamic Type size, and speech rate is
+    adjustable in Settings. If something is hard to use with an assistive technology,
+    please tell us &mdash; email with the <code>[Support]</code> prefix and we will
+    treat it as a bug.</p>
+
+    <h2 id="report">Reporting AI output</h2>
+    <p>Answers are generated by AI and can be wrong. If AURA produces something
+    harmful, hateful or otherwise problematic, email
+    <a href="mailto:Contact@auraclevoice.com">Contact@auraclevoice.com</a> with the
+    <code>[AI Report]</code> prefix. Include what you asked, what it answered, and
+    which source badge was shown. We assess every report, adjust what we can, and
+    forward it to the relevant provider where appropriate.</p>
+
+    <div class="note">
+      <strong>AURA is not an emergency service.</strong> In an emergency, call your
+      local emergency number. Do not use AURA in a way that distracts from driving or
+      operating machinery.
+    </div>
+
+  </article>
+
+</div>
+</div>
+
+<footer class="site-footer">
+  <div class="shell">
+    <nav>
+      <a href="/pricing/">Pricing</a>
+      <a href="/support/">Support</a>
+      <a href="/limitations/">What it can&rsquo;t do</a>
+      <a href="/legal/privacy/">Privacy</a>
+      <a href="/legal/terms/">Terms</a>
+    </nav>
+    <div>
+      <p>&copy; 2026 Everyday Digital Solutions. Listed on the App Store as Auracle Voice
+      &mdash; the app itself is AURA; say &ldquo;Aura&rdquo; out loud.</p>
+      <p>Apple, iPhone, AirPods, Siri, and Apple Intelligence are trademarks of Apple
+      Inc., registered in the U.S. and other countries. Anthropic and Google marks are
+      used only to state compatibility; no endorsement is implied.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
